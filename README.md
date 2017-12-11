@@ -19,18 +19,19 @@ Some of the negatives I see in Scrum:
 I have recently found a thing called "Scrum-ban", which seems to address the issues I have with Scrum, while still keeping the good things. In my view, the word "Agile" should be taken to heart, and teams should not be afraid of implementing changes that work for them, even if that means breaking the rules of traditional Scrum.
 
 ## Flow
-Scrum is usually implemented via time-boxed chunks of development called Sprints. Each Sprint is often 2 or 4 weeks in length, and is the often used as the unit for longer term planning. These sprints are also used to facilitiate incremental and continuous improvement by retrospectively looking back at how it went, compiling ideas, and then trying to improve the next one.
+Scrum is usually implemented via time-boxed chunks of development called Sprints. Each Sprint is often 2 or 4 weeks in length, and is the often used as the unit for longer term planning. These sprints are also used to facilitiate incremental and continuous improvement by retrospectively looking back at how it went, compiling ideas, and then trying to improve the next one. I recommend having sprints of 2 weeks.
 
 ### Scrum Master
 The SM is the person who facilitates the process, however the Scrum Master's main task is "to unblock the team". Implementing the process should just be a means to achieve that, not the goal, as a well implemented process should allow the team to be more efficient.
 
 If any impediments arise, it is the Scrum Master's duty to resolve them as soon as possible. SM should act a representative of the team when it comes to dealing with management and should represent the interests of the members. SM should escalate issues as high as necessary, when necessary.
 
+Scrum-ban recommends being more dynamic and planning whenever the amount of to-do stories reaches some lower limit.
 
 ### Meetings
 #### Daily Scrum
-The namesake of the methodology. This involves a usually 15 minute gathering each day, where each team member should present the following:
-* What they accomplished yesterday.
+The namesake of the methodology. This involves an around 15 minute gathering each day, where each team member should present the following:
+* What they had accomplished yesterday.
 * What they plan on doing today.
 * Whether they are blocked on anything.
 This is done to monitor the health of the sprint, and also helps give Scrum Master visibility of any problems.
@@ -38,17 +39,25 @@ This is done to monitor the health of the sprint, and also helps give Scrum Mast
 Additionally, the team lead should provide updates on any changes to the roadmap, or changes in the task priorities.
 
 #### Planning
-Usually done before starting a sprint. Based on how many people are in the team, there is a finite amount of work that can be completed. The amount of work a team can complete, should be based around the computed velocity of the team - the amount of tasks the team completes per sprint on average for example.
+Usually done in advance of starting a sprint.
 
-Pure Scrum does not intend for member specialization, however Scrum-ban allows for this, and I also believe it to be the better option. Team members, based on their interests or specialities, can choose their first task based on what they prefer to do next sprint - this can be done in advance if possible. If it is not possible to solve any conflicts of interest in advance, then during the planning meeting the team should go in a randomly-generated order and pick tasks. Any subsequent tasks should be individually picked upon completion of the first task.
+Velocity - the amount of tasks the team can complete with a set time frame, often a sprint. Smaller stories help make this more accuarate. Velocity should be used to fill the sprint with the amount of work the team expects to complete within the sprint time.
 
-The actual meerting often can end up being very short, and mainly consist of a short discussion of whether any tasks need re-estimation, and whether everyone feels comfortable with the sprint tasks.
+In traditional Scrum, planning is done during a set time every Sprint, however in Scrum-ban it is done on a "planning signal", or whenever it is deemed necessary, thus allowing to be more dynamic/agile.
+
+When planning, external dependencies and priotities should be taken into account. Either during the planning meeting, or ideally in advance, people should get their first task assigned. The assignment can be done based on personal interests/goals/expertise or everyone can pick what they like going in a random order. Once they are done with their current taks they should grab another task from the Sprint.
+
+Another suggestion is to plan more in advance and allow for people who complete their tasks to keep grabbing new ones, including the ones from the next Sprint. An alternative would be to use the spare time for personal development or as innovation time.
+
+Pure Scrum does not intend for member specialization, however Scrum-ban allows for this, and I also believe it to be the better option. Playing to the strenghts of the team members and allowing people to have a sense of "ownership" I believe yields much better results.
 
 "Everyone does everything" should not be artifically enforced by making sure everyone takes different tasks each time.
 
-Scrum Master should track what team members are mainly doing, and make sure someone shadows this work at the very least.
+Scrum Master should track what team members are mainly doing, and make sure someone at laeast shadows every project.
 
 A method to improve knowledge sharing within the team may be to define tasks in a vertical manner, thus a task on completion will provide new functionality, and it can be split into sub-tasks which can be shared between team members interested in different aspects of a single feature. There should still be one person who owns the overarching task.
+
+The actual meeting often can end up being very short, and mainly consist of a short discussion of whether any tasks need re-estimation, and whether everyone feels comfortable with the sprint tasks.
 
 #### Grooming
 Grooming/Refinement is a meeting where the team should estimate the time it takes to perform a task.
